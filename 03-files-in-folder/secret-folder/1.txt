@@ -1,0 +1,708 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@1LisaW 
+EvgeniiMal
+/
+HTML-builder
+Public
+Code
+Issues
+2
+Pull requests
+3
+Discussions
+Actions
+Projects
+Wiki
+Security
+Insights
+Проверка 03 files in folder
+Eugene edited this page 7 days ago · 12 revisions
+ Pages 8
+Find a Page…
+Home
+HTML builder crosscheck
+Проверка 01 read file
+Проверка 02 write file
+Проверка 03 files in folder
+Проверка 04 copy directory
+Проверка 05 merge styles
+Проверка 06 build page
+Clone this wiki locally
+https://github.com/EvgeniiMal/HTML-builder.wiki.git
+Описание хода проверки задания 03-files-in-folder:
+
+Проверьте код на наличие синхронных методов модуля fs(можно воспользоваться сочетанием клавиш ctrl + f и ввести в появившемся поле поиска Sync) и setTimeout(). В случае использования синхронных методов или таймера задание считается невыполненным - 0 баллов.
+Выполните команду node 03-files-in-folder в корневом каталоге репозитория. В консоль должна выводиться информация о файлах содержащихся внутри secret-folder(информация о файлах находящихся в подпапках выводиться не должна). Если вы получили ошибку во время выполнения или же неверную информацию о файлах задание считается невыполненным - 0 баллов.
+Дополните папку secret-folder одним или несколькими файлами разного размера (сгенерировать текст-заполнитель вы можете например тут)
+Дополните папку secret-folder двумя папками. В названии одной из папок укажите фальшивое разрешение (прим. my-folder.js)
+Запустите скрипт командой node 03-files-in-folder, и проверьте корректность выводимых данных. Если данные о добавленных файлах неверны или же выводятся данные о директориях задание считается невыполненным - 0 баллов.
+В случае успешной проверки всех пунктов за задание начисляется 20 баллов.
+Минимальная оценка - 0 баллов.
+
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

@@ -1,24 +1,76 @@
-const {copyFile, unlink } = require('fs');
-const { mkdir, readdir } = require('fs/promises');
+const {copyFile } = require('fs');
+const {
+  mkdir,
+  readdir,
+  stat,
+  rm,
+  unlink,
+  access
+} = require('fs/promises');
 const path = require('path');
 
-readdir(path.join(__dirname,'files-copy')).then( (response) =>{
-  response.forEach( file =>{
-    unlink(path.join(__dirname, 'files-copy', file), err => {
-      if (err) console.log(err.message);
-    });
+const getFiles = (folderPath) => {
+  return readdir(folderPath, (error) => {
+    if (error) return console.log(error.message);
   });
-}).catch(()=> {return;});
+};
 
+const getClearFolder = async (folderPath) => {
+  const clearFolder = async (folderPath) => {
+    await getFiles(folderPath).then(async (response) => {
+      for (let fileName of response) {
+        console.log(fileName);
 
-readdir(path.join(__dirname, 'files'))
-  .then((response) => {
-    mkdir(path.join(__dirname,'files-copy'),{recursive:true});
-    response.forEach(
-      (item) => {
-        copyFile(path.join(__dirname, 'files', item), path.join(__dirname, 'files-copy', item), (err) => {
-          if (err) return console.log(err);
+        const filepath = path.join(folderPath, fileName);
+        await stat(filepath).then(async st => {
+          if (st.isDirectory()) {
+            await clearFolder(filepath);
+            await rm(filepath, {
+              recursive: true
+            });
+          } else {
+            await unlink(filepath);
+          }
+        }).catch(() => {
+          return;
         });
       }
-    );
+    }).catch(() => {
+      return;
+    });
+  };
+  await access(folderPath).then(() => clearFolder(folderPath)).catch(() => {
+    console.log('catch');
+    return;
   });
+};
+
+const copyFiles = async (folderFromPath, folderInPath) => {
+  await readdir(folderFromPath)
+    .then(async (response) => {
+      await mkdir(folderInPath, {
+        recursive: true
+      }, (err) => {
+        if (err) return console.log(err.message);
+      });
+      for (let item of response) {
+        await stat(path.join(folderFromPath, item)).then(
+          async (st) => {
+            if (st.isDirectory()) {
+              await copyFiles(path.join(folderFromPath, item), path.join(folderInPath, item));
+            } else {
+              await copyFile(path.join(folderFromPath, item), path.join(folderInPath, item), (err) => {
+                if (err) return console.log(err.message);
+              });
+            }
+          });
+      }
+    }).catch(() => {
+      return;
+    });
+};
+
+(async ()=>{
+  await getClearFolder(path.join(__dirname, 'files-copy'));
+  await copyFiles(path.join(__dirname, 'files'), path.join(__dirname, 'files-copy'));
+})();

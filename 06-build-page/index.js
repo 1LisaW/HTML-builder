@@ -114,17 +114,16 @@ const bundleHTML = async (bundlePath, componentsPath) =>{
   for await (const line of rl){
     const component = line.match(/{{([a-zA-Z]*)}}/);
     if(component!==null){
-      console.log(`${component[1]}.html`);
       const readableStreamComponent = createReadStream(path.join(componentsPath, `${component[1]}.html`));
       const writableStreamForComponent = createWriteStream(path.join(bundlePath, 'index.html'), {
         flags: 'a'
       });
-
-      console.log(line);
       await util.promisify(pipeline)(
         readableStreamComponent, 
         writableStreamForComponent
       );
+      writableStream.write('\n');
+
     } else{
       
       writableStream.write(`${line}\n`);

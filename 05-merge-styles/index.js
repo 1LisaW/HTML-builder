@@ -11,8 +11,7 @@ async function bundleCSS(){
         return console.log(error.message);
       }
     });
-  }).catch((err) => {
-    console.log(err.message);
+  }).catch(() => {
   });
   
   const files = [];

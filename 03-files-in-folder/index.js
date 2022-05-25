@@ -9,7 +9,7 @@ const getFilesInfo = (folderPath)=>{
   }).then(response => {
     response.forEach((stats) => {
       const filepath = path.join(folderPath, stats.name);
-      const outputData = stats.name.split('.');
+      const outputData = [stats.name.slice(0, stats.name.lastIndexOf('.')), stats.name.slice(stats.name.lastIndexOf('.')+1)];
       stat(filepath, (error, st) => {
         if (error) return console.log(error.message);
         if (st.isFile()) {

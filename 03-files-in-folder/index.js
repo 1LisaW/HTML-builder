@@ -16,9 +16,6 @@ const getFilesInfo = (folderPath)=>{
           outputData.push(`${st.size/1000}kb`);
           console.log(outputData.join(' - '));
         }
-        // else{
-        //   return getFilesInfo(path.join(folderPath, stats.name));
-        // }
       });
     });
   });

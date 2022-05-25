@@ -1,19 +1,25 @@
 const fs = require('fs');
 const path = require('path');
 const { stdin, stdout } = process;
-const {pipeline} = require('stream');
-const writableStream = fs.createWriteStream(path.join(__dirname, 'text.txt'), 'utf8', {
-  flags: 'a+'
-});
+const writefilePath = path.join(__dirname, 'text.txt');
 stdout.write('Please, type some text\n');
+fs.writeFile(writefilePath, '', (err) => {
+  if (err) {
+    return console.log(err.message);
+  }
+});
 
 stdin.on('data', (data)=>{
   if (data.toString().trim() === 'exit') process.exit();
 });
-pipeline(stdin, writableStream, (err) => {
-  if (err) {
-    console.error('Pipeline failed.', err);
-  }
+
+stdin.on('data', (data) =>{
+  fs.appendFile(writefilePath, 
+    data,
+    (err) => {
+      if (err) {return console.log(err.message);}
+    }
+  );
 });
 
 process.on('exit', ()=>{
